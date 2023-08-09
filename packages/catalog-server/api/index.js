@@ -1,7 +1,8 @@
 const express = require('express');
 
 // if running on vercel, use generated .prod configs
-const env = process.env.VERCEL ? '.prod' : '.dev';
+// const env = process.env.VERCEL ? '.prod' : '.dev';
+const env = '.dev';
 const suffix = env + '.json';
 
 const host = require('../data/host' + suffix);
