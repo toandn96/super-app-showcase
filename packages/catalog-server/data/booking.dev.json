@@ -6,7 +6,7 @@
   },
   "android": {
     "0.0.1": {
-      "auth": "http://localhost:9003/[name][ext]"
+      "auth": "https://github.com/toandn96/super-app-showcase/releases/download/auth-android%400.0.1/[name][ext]"
     }
   }
 }
